@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    background-image: url(https://th.bing.com/th/id/OIP.yHn3NK0YmQDt-nsgvhR1XwHaGH?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.container > div{
+    height: auto;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.95);
+}
+.cont1{
+    background-image: url(https://english.cdn.zeenews.com/sites/default/files/2023/04/12/1182381-gallerydhoni.jpg);
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.cont2{
+    background-image: url(https://wallpaperaccess.com/full/3850988.jpg);
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.cont3{
+    background-image: url(https://wallpapercave.com/wp/wp8147495.jpg);
+}
+.cont4{
+    background-image: url(https://www.hindustantimes.com/ht-img/img/2023/03/31/1600x900/Ruturaj_Gaikwad_CSK_1680284808197_1680284808411_1680284808411.jpg);
+}
+.cont5{
+    background-image: url(https://wallpapercave.com/wp/wp4304100.jpg);
+}
+.cont6{
+    background-image: url(https://cdn-wp.thesportsrush.com/2023/04/356de9d8-i-2023-04-17t002648.728.jpg);
+}
+.cont7{
+    background-image: url(https://static.toiimg.com/thumb/msid-90903847,width-1070,height-580,imgsize-33314,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg);
+}
+.cont8{
+    background-image: url(https://i.pinimg.com/originals/2c/3c/e5/2c3ce5f49d4fbc72e391e26227a4854a.jpg);
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.cont9{
+    background-image: url(https://circleofcricket.com/post_image/post_image_d70cfb7.JPG);
+}
+.cont10{
+    background-image: url(https://cdn-wp.thesportsrush.com/2020/08/Jadeja-IPL-2020.jpg);
+}
+.cont11{
+    background-image: url(https://cricinformer.com/wp-content/uploads/2023/04/Deepak-Chahar.png);
+}
+.cont12{
+    background-image: url(https://media.crictracker.com/media/attachments/1683376927637_Matheesha-Pathirana.jpeg);
+}
+.container > div h1 {
+    text-align: center;
+    color: #f40e0efd;
+    margin-top: 300px;
+    font-size: 40px;
+    opacity: 0;
+    transition: 0.7s;
+}
+div > .cont1 h1{
+    margin-top: 620px;
+}
+div > .cont8 h1{
+    margin-top: 620px;
+}
+div > h1:hover{
+    opacity: 1;
+    transform: scale(1.2) skew(-15deg) translate(-7px,-5px);
+}
